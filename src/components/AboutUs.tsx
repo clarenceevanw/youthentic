@@ -13,7 +13,7 @@ const aboutCards: AboutCard[] = [
     id: 1,
     title: "Filosofi Kami",
     description: "Youthentic percaya bahwa setiap individu memiliki cerita unik. Parfum kami dirancang untuk mengekspresikan kepribadian Anda yang autentik dan muda.",
-    imageUrl: "/src/assets/50ml/Noir.png"
+    imageUrl: "/assets/50ml/Noir.png"
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ const aboutCards: AboutCard[] = [
     id: 4,
     title: "Identitas",
     description: "Youthentic bukan hanya parfum, tetapi pernyataan gaya hidup. Kami menciptakan pengalaman yang mewah namun relatable untuk generasi modern yang percaya diri.",
-    imageUrl: "/src/assets/50ml/Crimson.png"
+    imageUrl: "/assets/50ml/Crimson.png"
   }
 ];
 

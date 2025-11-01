@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 import { ChevronDown } from "lucide-react";
 import { Button } from "./ui/button";
-import perfumeImage from "../assets/ParfumDepan.png";
+import perfumeImage from "../../public/assets/ParfumDepan.png";
 
 interface HeroProps {
   onBuyNowClick: () => void;
