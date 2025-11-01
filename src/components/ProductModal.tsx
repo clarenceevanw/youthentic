@@ -251,7 +251,7 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
                       className="block"
                     >
                       <Button className="w-full cursor-pointer bg-[#03AC0E] hover:bg-[#02930C] text-white flex items-center justify-center gap-3 h-14 text-base transition-all duration-300 hover:shadow-lg hover:shadow-[#03AC0E]/30">
-                        <img src="/src/assets/tokopedia.svg" alt="" className="w-5 h-5" />
+                        <img src="/assets/tokopedia.svg" alt="" className="w-5 h-5" />
                         Beli di Tokopedia
                       </Button>
                     </a>
@@ -263,7 +263,7 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
                       className="block"
                     >
                       <Button className="w-full cursor-pointer bg-[#EE4D2D] hover:bg-[#D73111] text-white flex items-center justify-center gap-3 h-14 text-base transition-all duration-300 hover:shadow-lg hover:shadow-[#EE4D2D]/30">
-                        <img src="/src/assets/small.png" alt="shopee" className="w-7 h-7" />
+                        <img src="/assets/small.png" alt="shopee" className="w-7 h-7" />
                         Beli di Shopee
                       </Button>
                     </a>
@@ -278,7 +278,7 @@ export function ProductModal({ product, isOpen, onClose }: ProductModalProps) {
                         variant="outline"
                         className="w-full cursor-pointer border-white/20 hover:border-[#D4AF37] text-black flex items-center justify-center gap-3 h-14 text-base transition-all duration-300 hover:shadow-lg hover:shadow-[#D4AF37]/20 bg-white"
                       >
-                        <img src="/src/assets/tiktok.svg" alt="tiktok" className="w-5 h-5 "/>
+                        <img src="/assets/tiktok.svg" alt="tiktok" className="w-5 h-5 "/>
                         Lihat di Tiktok
                       </Button>
                     </a>
