@@ -96,7 +96,7 @@ const faqData: Record<string, FAQItem[]> = {
     {
       question: "Apakah Youthentic menerima kolaborasi atau sponsorship?",
       answer:
-        "Ya, kami terbuka untuk kolaborasi dengan influencer, kampus, maupun event. Kirim proposal ke email: partnership@youthentic.id."
+        "Ya, kami terbuka untuk kolaborasi dengan influencer, kampus, maupun event. Kirim proposal ke email: youthenticperfume@gmail.com"
     }
   ],
 
