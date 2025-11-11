@@ -178,7 +178,7 @@ export function ProductGallery({
           Discover Your Scent
         </h2>
         <p className="text-white/60 text-center mb-16 max-w-3xl mx-auto text-lg md:text-xl">
-          Koleksi parfum premium kami yang dirancang untuk setiap momen dalam hidup Anda.
+          Our premium fragrance collection, designed for every moment in your life.
         </p>
 
         <div className="relative flex items-center gap-4 md:gap-6">

@@ -13,73 +13,114 @@ interface FAQItem {
 }
 
 const faqData: Record<string, FAQItem[]> = {
-  pengiriman: [
-    {
-      question: "Berapa lama waktu pengiriman?",
-      answer: "Waktu pengiriman bervariasi tergantung lokasi. Untuk area Jabodetabek biasanya 1-2 hari kerja, sedangkan untuk luar pulau Jawa 3-5 hari kerja."
-    },
-    {
-      question: "Apakah ada biaya pengiriman?",
-      answer: "Biaya pengiriman ditanggung oleh pembeli dan dihitung otomatis berdasarkan alamat tujuan. Kami sering mengadakan promo free ongkir, jadi pantau terus akun media sosial kami!"
-    },
-    {
-      question: "Apakah produk dikemas dengan aman?",
-      answer: "Ya, semua produk kami dikemas dengan bubble wrap berlapis dan box yang kokoh untuk memastikan produk sampai dengan aman tanpa kerusakan."
-    }
-  ],
-  retur: [
-    {
-      question: "Apakah bisa melakukan retur produk?",
-      answer: "Ya, kami menerima retur dalam waktu 7 hari sejak produk diterima jika terdapat cacat produksi atau kerusakan saat pengiriman. Pastikan produk masih dalam kondisi segel dan belum digunakan."
-    },
-    {
-      question: "Bagaimana proses retur?",
-      answer: "Hubungi customer service kami melalui Instagram atau email dengan menyertakan foto produk dan bukti pembelian. Tim kami akan membantu proses retur Anda."
-    },
-    {
-      question: "Apakah biaya retur ditanggung toko?",
-      answer: "Jika retur disebabkan oleh kesalahan kami (produk cacat atau salah kirim), biaya retur ditanggung toko. Untuk alasan lain, biaya retur ditanggung pembeli."
-    }
-  ],
-  komplain: [
-    {
-      question: "Bagaimana cara mengajukan komplain?",
-      answer: "Anda dapat mengajukan komplain melalui Instagram DM, email, atau langsung melalui platform marketplace tempat Anda membeli (Tokopedia/Shopee)."
-    },
-    {
-      question: "Berapa lama respon komplain?",
-      answer: "Tim customer service kami akan merespon komplain Anda maksimal dalam 1x24 jam pada hari kerja."
-    },
-    {
-      question: "Apa saja yang bisa dikomplain?",
-      answer: "Anda dapat mengajukan komplain untuk produk rusak, produk tidak sesuai deskripsi, keterlambatan pengiriman, atau masalah lainnya terkait pesanan Anda."
-    }
-  ],
   produk: [
     {
-      question: "Apakah produk Youthentic original?",
-      answer: "Ya, semua produk Youthentic adalah 100% original dan diproduksi dengan standar kualitas tinggi menggunakan bahan-bahan premium."
+      question: "Apa itu Youthentic.Lite?",
+      answer:
+        "Youthentic.Lite adalah brand parfum lokal dengan aroma premium yang terinspirasi dari nuansa kota-kota dunia. Kami menghadirkan dua ukuran utama: 10ml (Travel Size) dan 50ml (Loyalist Size), cocok untuk penggunaan harian maupun koleksi pribadi."
     },
     {
-      question: "Berapa lama ketahanan aroma parfum?",
-      answer: "Parfum Youthentic memiliki ketahanan aroma 6-8 jam untuk parfum biasa dan hingga 12 jam untuk varian intense/ekstrak."
+      question: "Apakah parfum Youthentic tahan lama?",
+      answer:
+        "Ya! Ketahanan parfum Youthentic.Lite rata-rata 6–10 jam, tergantung aktivitas dan jenis kulit. Semakin aktif dan hangat tubuhmu, aroma parfum akan semakin kuat karena projection meningkat."
     },
     {
-      question: "Apakah ada kemasan travel size?",
-      answer: "Saat ini kami menyediakan ukuran 50ml dan 100ml. Travel size sedang dalam pengembangan dan akan segera hadir!"
+      question: "Apakah produk Youthentic.Lite unisex?",
+      answer:
+        "Sebagian besar koleksi kami unisex, dengan karakter aroma yang bisa disesuaikan dengan kepribadianmu — dari yang fresh, manis, hingga woody."
     },
     {
-      question: "Apakah parfum aman untuk kulit sensitif?",
-      answer: "Parfum kami telah melalui uji dermatologi. Namun, jika Anda memiliki kulit sangat sensitif, kami sarankan untuk melakukan patch test terlebih dahulu atau konsultasikan dengan dokter kulit."
+      question: "Apakah parfum Youthentic.Lite original buatan sendiri?",
+      answer:
+        "Ya, seluruh parfum kami diracik dan diproduksi sendiri di Indonesia menggunakan bahan baku impor berkualitas tinggi dari Barcelona."
+    },
+    {
+      question: "Apakah produk Youthentic sudah terdaftar di BPOM?",
+      answer:
+        "Semua produk Youthentic.Lite telah terdaftar di BPOM dan aman digunakan. Kami memastikan parfum tidak mengandung alkohol berlebihan maupun bahan berbahaya."
+    }
+  ],
+
+  pengiriman: [
+    {
+      question: "Di mana saya bisa membeli parfum Youthentic?",
+      answer:
+        "Kamu bisa membeli produk kami di marketplace resmi:\n• TikTok Shop: @youthentic.lite\n• Shopee: Youthentic.Lite Official\n• Tokopedia: Youthentic.Lite"
+    },
+    {
+      question: "Berapa lama waktu pengiriman produk?",
+      answer:
+        "Pesanan akan diproses dalam 1–2 hari kerja, dan dikirim melalui ekspedisi pilihanmu. Estimasi waktu pengiriman biasanya 2–5 hari kerja tergantung lokasi."
+    },
+    {
+      question: "Apakah bisa COD (Bayar di Tempat)?",
+      answer:
+        "Ya, metode pembayaran COD tersedia untuk pembelian melalui Shopee dan TikTok Shop."
+    },
+    {
+      question: "Bagaimana jika paket rusak atau bocor saat pengiriman?",
+      answer:
+        "Jangan khawatir! Kirim video unboxing dan bukti kerusakan ke DM Instagram atau chat CS TikTok/Shopee. Tim kami akan membantu menggantikan produk baru sesuai kebijakan Youthentic."
+    }
+  ],
+
+  penggunaan: [
+    {
+      question: "Bagaimana cara pakai parfum agar tahan lama?",
+      answer:
+        "Semprotkan parfum di titik nadi seperti leher, pergelangan tangan, belakang telinga, dan dada dengan jarak 10–15 cm. Hindari menggosok area yang disemprot agar aroma tidak rusak."
+    },
+    {
+      question: "Apakah bisa layering dengan parfum lain?",
+      answer:
+        "Tentu! Beberapa koleksi Youthentic.Lite dirancang agar dapat dikombinasikan (layering) untuk menciptakan aroma khasmu sendiri."
+    },
+    {
+      question: "Kapan waktu terbaik untuk menyemprot parfum?",
+      answer:
+        "Gunakan setelah mandi, saat kulit sedikit lembap. Kondisi ini membantu aroma menempel lebih lama di kulit."
+    }
+  ],
+
+  komunitas: [
+    {
+      question: "Apa itu Scentsy Gang?",
+      answer:
+        "Scentsy Gang adalah komunitas pecinta parfum Youthentic. Anggota mendapatkan akses eksklusif ke pre-launch scent, event, dan promo khusus dari Youthentic."
+    },
+    {
+      question: "Bagaimana cara jadi affiliate atau reseller Youthentic?",
+      answer:
+        "Kamu bisa bergabung melalui TikTok Affiliate Center kami. Klik 'Join Affiliate' di produk Youthentic.Lite dan dapatkan komisi dari setiap penjualan melalui link kamu."
+    },
+    {
+      question: "Apakah Youthentic menerima kolaborasi atau sponsorship?",
+      answer:
+        "Ya, kami terbuka untuk kolaborasi dengan influencer, kampus, maupun event. Kirim proposal ke email: partnership@youthentic.id."
+    }
+  ],
+
+  lainnya: [
+    {
+      question: "Apakah Youthentic ramah lingkungan?",
+      answer:
+        "Kami berkomitmen untuk menggunakan kemasan reusable dan meminimalisir penggunaan plastik. Kami juga menyediakan layanan refill botol 50ml di event tertentu."
+    },
+    {
+      question: "Bagaimana cara membedakan produk asli Youthentic?",
+      answer:
+        "Pastikan kamu membeli hanya dari official store kami di marketplace resmi. Setiap botol memiliki kode batch dan segel hologram asli sebagai tanda keaslian."
     }
   ]
 };
 
+
 const categories = [
+  { id: "produk", label: "Produk" },
   { id: "pengiriman", label: "Pengiriman" },
-  { id: "retur", label: "Retur" },
-  { id: "komplain", label: "Komplain" },
-  { id: "produk", label: "Produk" }
+  { id: "penggunaan", label: "Penggunaan" },
+  { id: "komunitas", label: "Komunitas" },
+  { id: "lainnya", label: "Lainnya" }
 ];
 
 export function FAQ() {
@@ -98,15 +139,15 @@ export function FAQ() {
       >
         <h2 className="text-white text-center mb-6 text-4xl md:text-5xl lg:text-6xl" style={{ fontWeight: "bold" }}>Frequently Asked Questions</h2>
         <p className="text-white/60 text-center mb-16 max-w-3xl mx-auto text-lg md:text-xl">
-          Temukan jawaban untuk pertanyaan yang sering diajukan
+          Discover answers to the questions we’re most often asked.
         </p>
 
-        <div className="grid w-full grid-cols-2 md:grid-cols-4 bg-[#1a1a1a] border border-white/10 mb-8 p-1 rounded-lg" style={{ gap: "0.4rem" }}>
+        <div className="flex flex-wrap justify-center bg-[#1a1a1a] border border-white/10 mb-8 p-1 rounded-lg" style={{ gap: "0.4rem" }}>
           {categories.map((category) => (
             <button
               key={category.id}
               onClick={() => setActiveTab(category.id)}
-              className={`p-2 cursor-pointer rounded-md transition-colors duration-200 text-sm font-medium ${
+              className={`flex-1 min-w-[120px] p-2 cursor-pointer rounded-md transition-colors duration-200 text-sm font-medium ${
                 activeTab === category.id
                   ? "bg-[#D4AF37] text-black shadow"
                   : "text-white/70 hover:bg-white/10"

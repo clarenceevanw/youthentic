@@ -15,7 +15,7 @@ export function Contact() {
       >
         <h2 className="text-white text-center mb-6 text-4xl md:text-5xl lg:text-6xl" style={{ fontWeight: "bold" }}>Contact Us</h2>
         <p className="text-white/60 text-center mb-16 max-w-3xl mx-auto text-lg md:text-xl">
-          Hubungi kami untuk pertanyaan, saran, atau informasi lebih lanjut
+          Get in touch with us for any questions, suggestions, or further information.
         </p>
 
         <div className="grid md:grid-cols-2 gap-8">
@@ -79,7 +79,7 @@ export function Contact() {
                   </div>
                 </a>
 
-                <div className="flex items-start gap-4 p-4 rounded-lg bg-[#1a1a1a]">
+                <a href="https://maps.app.goo.gl/Bv1dMxYJhavnDwtBA" className="flex items-start gap-4 p-4 rounded-lg bg-[#1a1a1a] hover:bg-[#252525] transition-colors group">
                   <div className="w-12 h-12 rounded-full bg-[#D4AF37] flex items-center justify-center flex-shrink-0">
                     <MapPin className="w-6 h-6 text-black" />
                   </div>
@@ -90,7 +90,7 @@ export function Contact() {
                        Kota Bogor, Jawa Barat 16119, Indonesia
                     </p>
                   </div>
-                </div>
+                </a>
               </div>
             </motion.div>
 

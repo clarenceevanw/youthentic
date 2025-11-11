@@ -103,8 +103,8 @@ export function Hero({ onBuyNowClick }: HeroProps) {
             className="absolute top-[15%] -left-4 md:-left-8 bg-black/60 backdrop-blur-md border border-white/10 rounded-lg p-3 md:p-4"
           >
             <p className="text-white/60 text-xs mb-1">SIGNATURE SCENT</p>
-            <p className="text-white text-sm md:text-base">Midnight Elegance</p>
-            <p className="text-[#D4AF37] text-xs mt-1">Limited Edition</p>
+            <p className="text-white text-sm md:text-base">Gentleman Choice</p>
+            <p className="text-[#D4AF37] text-xs mt-1">Essence from Barcelona</p>
           </motion.div>
         </motion.div>
 

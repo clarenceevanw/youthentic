@@ -17,8 +17,8 @@ const aboutCards: AboutCard[] = [
   },
   {
     id: 2,
-    title: "Bahan Terbaik",
-    description: "Kami hanya menggunakan bahan-bahan premium dan berkualitas tinggi yang dipilih dengan cermat dari berbagai penjuru dunia untuk menciptakan aroma yang sempurna.",
+    title: "Bahan Premium",
+    description: "Kami hanya menggunakan bahan-bahan premium dan berkualitas tinggi yang dipilih dengan cermat dari Barcelona untuk menciptakan aroma yang sempurna.",
     imageUrl: "https://images.unsplash.com/photo-1759382622584-c1fae60c415d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxwZXJmdW1lJTIwaW5ncmVkaWVudHMlMjBsYXZlbmRlcnxlbnwxfHx8fDE3NjE3MTE0MTF8MA&ixlib=rb-4.1.0&q=80&w=1080"
   },
   {
@@ -30,7 +30,7 @@ const aboutCards: AboutCard[] = [
   {
     id: 4,
     title: "Identitas",
-    description: "Youthentic bukan hanya parfum, tetapi pernyataan gaya hidup. Kami menciptakan pengalaman yang mewah namun relatable untuk generasi modern yang percaya diri.",
+    description: "Bukan hanya parfum, tapi hadir di setiap nuansa hidup kalian saat hujan turun, di tengah hiruk pikuk kota, atau di momen santai bersama teman. Youthentic diciptakan untuk menemani setiap kepribadian dan kesukaan, karena keaslian punya banyak aroma dan semuanya layak dirayakan.",
     imageUrl: "/assets/50ml/Crimson.png"
   }
 ];
@@ -51,7 +51,7 @@ export function AboutUs() {
       >
         <h2 className="text-white text-center mb-6 text-4xl md:text-5xl lg:text-6xl" style={{ fontWeight: "bold" }}>About Us</h2>
         <p className="text-white/60 text-center mb-16 max-w-3xl mx-auto text-lg md:text-xl">
-          Temukan filosofi dan dedikasi kami dalam menciptakan parfum yang autentik
+          Discover our philosophy and dedication in crafting authentic fragrances made with passion and fine ingredients sourced from Barcelona.
         </p>
 
         <div className="flex flex-col md:flex-row gap-4 items-stretch">
