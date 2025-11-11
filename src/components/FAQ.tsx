@@ -176,7 +176,9 @@ export function FAQ() {
                   {faq.question}
                 </AccordionTrigger>
                 <AccordionContent className="text-white/70">
-                  {faq.answer}
+                  {faq.answer.split("\n").map((line, i) => (
+                    <p key={i}>{line}</p>
+                  ))}
                 </AccordionContent>
               </AccordionItem>
             ))}
