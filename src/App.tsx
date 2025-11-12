@@ -45,6 +45,7 @@ export default function App() {
 
   return (
     <>
+      <Analytics />
       <AnimatePresence>
         {isLoading && <LoadingScreen key="loader" />}
       </AnimatePresence>
