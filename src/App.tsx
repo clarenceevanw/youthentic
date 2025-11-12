@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from "react";
+import { Analytics } from "@vercel/analytics/next"
 // 1. Impor AnimatePresence dan motion
 import { AnimatePresence, motion } from "motion/react"; 
 import { Navbar } from "./components/Navbar";
