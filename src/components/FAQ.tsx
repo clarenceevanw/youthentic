@@ -15,29 +15,29 @@ interface FAQItem {
 const faqData: Record<string, FAQItem[]> = {
   produk: [
     {
-      question: "Apa itu Youthentic.Lite?",
+      question: "Apa itu Youthentic Lite?",
       answer:
-        "Youthentic.Lite adalah brand parfum lokal dengan aroma premium yang terinspirasi dari nuansa kota-kota dunia. Kami menghadirkan dua ukuran utama: 10ml (Travel Size) dan 50ml (Loyalist Size), cocok untuk penggunaan harian maupun koleksi pribadi."
+        "Youthentic Lite adalah brand parfum lokal dengan aroma premium yang terinspirasi dari nuansa kota-kota dunia. Kami menghadirkan dua ukuran utama: 10ml (Travel Size) dan 50ml (Loyalist Size), cocok untuk penggunaan harian maupun koleksi pribadi."
     },
     {
       question: "Apakah parfum Youthentic tahan lama?",
       answer:
-        "Ya! Ketahanan parfum Youthentic.Lite rata-rata 6–10 jam, tergantung aktivitas dan jenis kulit. Semakin aktif dan hangat tubuhmu, aroma parfum akan semakin kuat karena projection meningkat."
+        "Ya! Ketahanan parfum Youthentic Lite rata-rata 6–10 jam, tergantung aktivitas dan jenis kulit. Semakin aktif dan hangat tubuhmu, aroma parfum akan semakin kuat karena projection meningkat."
     },
     {
-      question: "Apakah produk Youthentic.Lite unisex?",
+      question: "Apakah produk  unisex?",
       answer:
         "Sebagian besar koleksi kami unisex, dengan karakter aroma yang bisa disesuaikan dengan kepribadianmu — dari yang fresh, manis, hingga woody."
     },
     {
-      question: "Apakah parfum Youthentic.Lite original buatan sendiri?",
+      question: "Apakah parfum  original buatan sendiri?",
       answer:
         "Ya, seluruh parfum kami diracik dan diproduksi sendiri di Indonesia menggunakan bahan baku impor berkualitas tinggi dari Barcelona."
     },
     {
       question: "Apakah produk Youthentic sudah terdaftar di BPOM?",
       answer:
-        "Semua produk Youthentic.Lite telah terdaftar di BPOM dan aman digunakan. Kami memastikan parfum tidak mengandung alkohol berlebihan maupun bahan berbahaya."
+        "Semua produk  telah terdaftar di BPOM dan aman digunakan. Kami memastikan parfum tidak mengandung alkohol berlebihan maupun bahan berbahaya."
     }
   ],
 
@@ -45,7 +45,7 @@ const faqData: Record<string, FAQItem[]> = {
     {
       question: "Di mana saya bisa membeli parfum Youthentic?",
       answer:
-        "Kamu bisa membeli produk kami di marketplace resmi:\n• TikTok Shop: @youthentic.lite\n• Shopee: Youthentic.Lite Official\n• Tokopedia: Youthentic.Lite"
+        "Kamu bisa membeli produk kami di marketplace resmi:\n• TikTok Shop: @youthenticfragrance\n• Shopee: youthentic.lite\n• Tokopedia: @youthenticfragrance"
     },
     {
       question: "Berapa lama waktu pengiriman produk?",
@@ -73,7 +73,7 @@ const faqData: Record<string, FAQItem[]> = {
     {
       question: "Apakah bisa layering dengan parfum lain?",
       answer:
-        "Tentu! Beberapa koleksi Youthentic.Lite dirancang agar dapat dikombinasikan (layering) untuk menciptakan aroma khasmu sendiri."
+        "Tentu! Beberapa koleksi Youthentic Lite dirancang agar dapat dikombinasikan (layering) untuk menciptakan aroma khasmu sendiri."
     },
     {
       question: "Kapan waktu terbaik untuk menyemprot parfum?",
@@ -91,7 +91,7 @@ const faqData: Record<string, FAQItem[]> = {
     {
       question: "Bagaimana cara jadi affiliate atau reseller Youthentic?",
       answer:
-        "Kamu bisa bergabung melalui TikTok Affiliate Center kami. Klik 'Join Affiliate' di produk Youthentic.Lite dan dapatkan komisi dari setiap penjualan melalui link kamu."
+        "Kamu bisa bergabung melalui TikTok Affiliate Center kami. Klik 'Join Affiliate' di produk Youthentic Lite dan dapatkan komisi dari setiap penjualan melalui link kamu."
     },
     {
       question: "Apakah Youthentic menerima kolaborasi atau sponsorship?",
